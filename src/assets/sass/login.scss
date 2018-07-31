@@ -1,0 +1,242 @@
+.login_logo{
+	width: rem(750px);
+	height: rem(340px);
+	margin: 0 auto;
+	background: pink;
+	background: url(../assets/images/news-1591766_960_720.jpg) no-repeat 100% 50%;
+	.login_img{
+		width: 100%;
+		height: 100%;
+		background-color: rgba($color: #000000, $alpha: 0.5);
+		.phone{
+			width: rem(135px);
+			height: rem(135px);
+			border-radius: 50%;
+			background: #fff;
+			overflow: hidden;
+			float: left;
+			margin-left: rem(105px);
+			margin-top: rem(70px);
+			line-height: rem(135px);
+			text-align: center;
+			span{
+				font-size: rem(75px);
+				color: #F25E54;
+			}
+		}
+		.weixin{
+			width: rem(135px);
+			height: rem(135px);
+			border-radius: 50%;
+			background: #fff;
+			overflow: hidden;
+			float: left;
+			margin-left: rem(72px);
+			margin-top: rem(70px);
+			line-height: rem(135px);
+			text-align: center;
+			span{
+				font-size: rem(60px);
+				color: #36C022;
+			}
+		}
+		.qq{
+			width: rem(135px);
+			height: rem(135px);
+			border-radius: 50%;
+			background: #fff;
+			overflow: hidden;
+			float: right;
+			margin-right: rem(105px);
+			margin-top: rem(70px);
+			line-height: rem(135px);
+			text-align: center;
+			span{
+				font-size: rem(75px);
+				color: #EFAD00;
+			}
+		}
+	}
+	.login_more{
+		width: rem(280px);
+		height: rem(55px);
+		background: #2e2e2e;
+		line-height: rem(55px);
+		text-align: center;
+		float: left;
+		border-radius: 20px;
+		margin-left: rem(235px);
+		margin-top: rem(50px);
+		p{
+			width: 100%;
+			height: 100%;
+			color: #bbb;
+			font-size: rem(24px);
+			span{
+				font-size: rem(24px);
+			}
+		}
+	}
+}
+
+//功能栏
+.function_box{
+	width: rem(750px);
+	margin: 0 auto;
+	overflow: hidden;
+	border-bottom: rem(20px) solid #f4f5f7;
+	background: #fff;
+	.function{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: rem(750px);
+		height: rem(140px);
+		margin: 0 auto;
+		.shoucang{
+			width: rem(250px);
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			div{
+				text-align: center;
+				span{
+					font-size: rem(45px);
+					color: #ffb26a;
+				}
+				p{
+					font-size: rem(26px);
+					color: #222;
+				}
+			}
+		}
+		.history{
+			width: rem(250px);
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			div{
+				text-align: center;
+				span{
+					font-size: rem(45px);
+					color: #b86189;
+				}
+				p{
+					font-size: rem(26px);
+					color: #222;
+				}
+			}
+		}
+		.night{
+			width: rem(250px);
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			div{
+				text-align: center;
+				span{
+					font-size: rem(45px);
+					color: #8399c2;
+				}
+				p{
+					font-size: rem(26px);
+					color: #222;
+				}
+			}
+		}
+	}
+}
+
+//我的关注栏目
+.mine_box{
+	overflow: hidden;
+	margin: 0 auto;
+	width: rem(750px);
+	border-bottom: rem(20px) solid #f4f5f7;
+	background: #fff;
+	.mine{
+		margin: 0 auto;
+		width: rem(690px);
+		.mine_one{
+			width: 100%;
+			height: rem(90px);
+			line-height: rem(90px);
+			border-bottom: 1px solid #e5e5e5;
+			P{
+				font-size: rem(29px);
+				float: left;
+			}
+			span{
+				display: block;
+				float: right;
+				color: #ccc;
+				font-size: rem(29px);
+			}
+		}
+		.mine_two{
+			width: 100%;
+			height: rem(90px);
+			line-height: rem(90px);
+			P{
+				font-size: rem(29px);
+				float: left;
+			}
+			span{
+				display: block;
+				float: right;
+				color: #ccc;
+				font-size: rem(29px);
+			}
+		}
+	}
+}
+
+//我的钱包栏目
+.money_box{
+	overflow: hidden;
+	margin: 0 auto;
+	width: rem(750px);
+	border-bottom: rem(20px) solid #f4f5f7;
+	background: #fff;
+	.money{
+		margin: 0 auto;
+		width: rem(690px);
+		.money_one{
+			width: 100%;
+			height: rem(90px);
+			line-height: rem(90px);
+			border-bottom: 1px solid #e5e5e5;
+			P{
+				font-size: rem(29px);
+				float: left;
+			}
+			span{
+				display: block;
+				float: right;
+				color: #ccc;
+				font-size: rem(29px);
+			}
+		}
+		.money_two{
+			width: 100%;
+			height: rem(90px);
+			line-height: rem(90px);
+			P{
+				font-size: rem(29px);
+				float: left;
+			}
+			span{
+				display: block;
+				float: right;
+				color: #ccc;
+				font-size: rem(29px);
+			}
+		}
+		span:nth-child(3){
+			margin-right: rem(20px);
+		}
+	}
+}

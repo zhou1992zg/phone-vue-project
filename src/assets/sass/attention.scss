@@ -1,0 +1,70 @@
+.attention {
+    border-top: 1px solid #ccc;
+    text-align: center;
+    position: relative;
+    .atten {
+        p {
+            font-size: rem(30px);
+            width: rem(430px);
+            margin: 0 auto;
+            margin-top: rem(430px);
+        }
+        span {
+            font-size: rem(30px);
+            color: #fff;
+            padding: rem(28px) rem(200px);
+            background: #f85959;
+            border-radius: rem(10px);
+            margin: rem(20px) rem(60px);
+            display: block;
+        }
+    }
+    .img {
+        position: absolute;
+        top: rem(100px);
+        left: rem(50px);
+        width: rem(120px);
+        height: rem(120px);
+        text-align: center;
+        line-height: rem(120px);
+        border-radius: 50%;
+        opacity: 0.5;
+        img {
+            display: block;
+            width: rem(100px);
+            height: rem(100px);
+        }
+    }
+    .img2 {
+        position: absolute;
+        top: rem(600px);
+        left: rem(200px);
+        width: rem(80px);
+        height: rem(80px);
+        text-align: center;
+        line-height: rem(120px);
+        border-radius: 50%;
+        opacity: 0.5;
+        img {
+            display: block;
+            width: rem(100px);
+            height: rem(100px);
+        }
+    }
+    .img3 {
+        position: absolute;
+        top: rem(800px);
+        left: rem(500px);
+        width: rem(120px);
+        height: rem(120px);
+        text-align: center;
+        line-height: rem(120px);
+        border-radius: 50%;
+        opacity: 0.5;
+        img {
+            display: block;
+            width: rem(120px);
+            height: rem(120px);
+        }
+    }
+}

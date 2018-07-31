@@ -1,0 +1,206 @@
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+//header
+body {
+    background: #fafafa;
+    font-weight: 200;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.phone_login_box {
+    width: rem(750px);
+    border-radius: 5px;
+    background: #fafafa;
+    margin: 0 auto;
+    overflow: hidden;
+    .phone_login {
+        width: rem(690px);
+        margin: 0 auto;
+        border-radius: 5px;
+        // background: pink;
+        overflow: hidden;
+        .cancel {
+            margin-top: rem(30px);
+            font-size: rem(29px);
+            float: right;
+        }
+    }
+    .cancel_title {
+        margin-top: rem(60px+30px+29px);
+        width: rem(690px);
+        display: flex;
+        p {
+            font-size: rem(36px);
+            margin: 0 auto;
+            font-weight: 400;
+        }
+    }
+    .cancel_input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: rem(85px);
+        width: rem(630px);
+        height: rem(88px);
+        border: 1px solid #9b9b9b;
+        border-radius: 45px;
+        background: #fff;
+        input {
+            width: rem(385px);
+            height: rem(32px);
+            border: none;
+            border-right: 1px solid #9b9b9b;
+            -moz-placeholder: #cacaca;
+            font-size: rem(26px);
+        }
+        p {
+            width: rem(175px);
+            height: rem(32px);
+            font-size: rem(26px);
+            line-height: rem(32px);
+            text-align: right;
+            font-weight: 400;
+        }
+    }
+    .cancel_code {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: rem(50px);
+        width: rem(630px);
+        height: rem(88px);
+        border: 1px solid #9b9b9b;
+        border-radius: 45px;
+        background: #fff;
+        input {
+            width: rem(560px);
+            height: rem(32px);
+            border: none;
+            -moz-placeholder: #cacaca;
+            font-size: rem(26px);
+        }
+    }
+    .cancel_login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: rem(50px);
+        width: rem(630px);
+        height: rem(90px);
+        border-radius: 45px;
+        background: #fff;
+        background: #faa9a9;
+        p {
+            height: rem(32px);
+            font-size: rem(26px);
+            font-weight: 300;
+            color: #fff;
+        }
+    }
+    .cancel_agreement {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: rem(32px);
+        width: rem(690px);
+        span {
+            font-size: rem(22px);
+            font-weight: 350;
+        }
+        span:nth-child(2) {
+            color: #44689b;
+        }
+        span:nth-child(4) {
+            color: #44689b;
+        }
+    }
+    .cancel_zhuce_denglu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: rem(90px);
+        width: rem(690px);
+        span {
+            font-size: rem(26px);
+            font-weight: 350;
+            color: #44689b;
+        }
+        span:nth-child(2) {
+            color: #ddd;
+        }
+    }
+    .cancel_youlian {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: rem(340px);
+        width: rem(690px);
+        overflow: hidden;
+        margin-top: rem(120px);
+        .youlian {
+            display: flex;
+            overflow: hidden;
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: rem(128px);
+                height: rem(128px);
+                overflow: hidden;
+                p {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: rem(88px);
+                    height: rem(88px);
+                    border-radius: 50%;
+                    box-shadow: 0 0 10px #ccc;
+                    overflow: hidden;
+                    span {
+                        font-size: rem(40px);
+                        color: #36C022;
+                    }
+                }
+            }
+            div:nth-child(2) {
+                p {
+                    span {
+                        font-size: rem(50px);
+                        color: #F25E54;
+                    }
+                }
+            }
+            div:nth-child(3) {
+                p {
+                    span {
+                        font-size: rem(50px);
+                        color: #EFAD00;
+                    }
+                }
+            }
+            div:nth-child(4) {
+                p {
+                    span {
+                        font-size: rem(55px);
+                        color: #EFAD00;
+                        margin-top: -5px;
+                        margin-left: 3px;
+                    }
+                }
+            }
+        }
+    }
+}

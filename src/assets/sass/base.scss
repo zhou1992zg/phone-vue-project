@@ -1,0 +1,12 @@
+// 把 px 转化成 rem
+@function rem($px){
+    // 75px  是 我依照的设计图 宽度 是 750px;
+    @return $px/75px * 1rem;
+    }  
+*{margin: 0;padding: 0;}
+ul,ol{list-style:none;}
+a{text-decoration: none;}
+a{
+	color: #000;
+	text-decoration: none;
+}
